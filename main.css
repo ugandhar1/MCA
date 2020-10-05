@@ -1,0 +1,49 @@
+#header
+{
+	background-color:#5EBCC8;
+	height: 80px;
+	font-size: 14px;
+	font-family: sans-serif;
+	padding-top:11px;
+	color:white;
+	
+
+
+}
+.slidebody
+{
+	width: 10px;
+
+	background-color: #fff;
+	height: 20px;
+	font-size: 30px;
+	font-family: sans-serif;
+	padding-top:40px;
+	
+
+
+}
+#footer
+{
+	background-color:#5EBCC8;
+	height: 100px;
+}
+#hm
+{
+	font-family:Monospace;
+	margin-left: 80px;
+	font-weight: bolder;
+
+}
+
+#half2
+{
+	background-color: blue;
+	width: 50%;
+	margin-right: 12px;
+
+}
+#ma
+{
+	height: 300px;
+}

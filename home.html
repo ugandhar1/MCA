@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="home.css">
+	<link rel="stylesheet" type="text/css" href="slide.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="dpd.css">
+</head>
+<body>
+	<div style="background-color: pink;">
+	<marquee><h1 style="font-family: Colonna MT;"> hotel management </h1></marquee></a></div>
+	
+<div style="background-color: #28e29e;height: 55px;width:100%;font-size: 22px;padding-top: 18px;font-family:Comic Sans MS ";>
+		
+				
+					<a href="home.html">Home</a>
+					<a href="login.html"> Administration</a>
+					<a href="cust.html">Customer</a> 
+					<a href="feature.html">features</a> 
+					<a href="aboutus.html">Aboutus</a> 
+		
+</div>
+<div id="ma">
+ <div class="slidebody">
+							   
+				    
+<div class="mySlides fade">
+  
+  <img src="hotel1.jpg" style="width:3000%">
+ 
+
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="hotel4a.jpg" style="width:3000%">
+  
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="hotel6.jpg" style="width:3000%">
+ 
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="hotel2.jpg" style="width:3000%">
+ 
+</div>
+
+<div class="mySlides fade">
+  <img src="hotel3.jpg" style="width:3000%">
+  
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+</div>
+</body>
+</div>
+<div style="background-color: yellow;">
+	<marquee><h1 style="font-family:Blackadder ITC;"> seven hills hotel  </h1></marquee></a>
+	<body background="hotel5.jpg">
+</div>
+</body>
+</html>

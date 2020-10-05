@@ -1,0 +1,29 @@
+.body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-size: cover;
+}
+.homecss{
+	overflow: hidden;
+	background-color: #06FFD7;
+	height: 50px;
+}
+.homecss a{
+	float: center;
+	color:;
+	text-align: center;
+	padding: 14px 16px;
+	font-size: 17px;
+}
+.homecss a:hover{
+	background-color: #4CAF50;
+	color: black;
+}
+.homecss a.active{
+	background-color: #4CAF50;
+	color: white;
+}
+.h1{
+	color: white;
+}
